@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import {InputTextModule} from 'primeng/inputtext';
 import {PasswordModule} from 'primeng/password';
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -19,6 +20,7 @@ import {PasswordModule} from 'primeng/password';
     AppComponent,
     HomeComponent,
     LoginComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -30,7 +32,8 @@ import {PasswordModule} from 'primeng/password';
     MegaMenuModule,
     ReactiveFormsModule,
     InputTextModule,
-    PasswordModule
+    PasswordModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
